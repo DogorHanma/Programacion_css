@@ -2,3 +2,28 @@
   margin: 0px;   
   padding: 0px;
 }
+.ejemplo{
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+    border: 1px solid #0d4acf;
+    border-top: 2px double #cf0d0d;
+    border-bottom: 10px dotted #0dcf64;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 80%;
+    width: 100px;
+    height: 200px;
+    min-width: 200px;
+    max-width: 100%;
+    margin: 16px;
+    margin: 25px 100px;
+    margin: 25px 150px 100px 50px;
+    margin-top:25px;
+    margin-block: 50px;
+    margin-block-start: 50px;
+    margin-block-end: 25px;
+    margin-inline: 100px;
+    margin: auto;
+    padding: 50px;
+}

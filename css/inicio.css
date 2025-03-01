@@ -155,3 +155,76 @@ div{
   border: 1px solid #da1e1e;
 }
 
+.boton{
+  border: 0px;
+  background-color: #0d4acf;
+  color: aliceblue;
+  width: 150px;
+  height: 80px;
+  border-radius: 16px;
+  box-shadow: 1px 10px 5px 3px #0d4acf;
+  transition-property: background-color, box-shadow, width;
+  transition-duration: 2s,500ms,1s;
+  transition-delay: 2s,0ms,500ms;
+  
+}
+
+.btn-y{
+  background-color: #0dcf64;
+}
+
+.boton:hover{
+  background-color: #cf0d0d;
+  box-shadow: 1px 10px 5px 3px #810dcf;
+  width: 300px;
+}
+.divAnimado{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #000000;
+  background-color: #0dcf64;
+  width: 400px;
+  height: 400px;
+  animation-name: ejemploAnimacion;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-fill-mode: backwards;
+}
+@keyframes ejemploAnimacion{
+  0% {
+    background-color: #ff0000;
+    border-radius: 10%;
+    background-image: url('../recursos/nyan-cat-gif.webp');
+  }
+  25%{
+    background-color: #00ff00;
+    border-radius: 55%;
+    background-image: url('../recursos/nyan-cat-gif.webp');
+  }
+  50%{
+    background-color: #0000ff;
+    border-width: 10px;
+    border-radius: 50%;
+    background-image: url('../recursos/nyan-cat-gif.webp');
+  }
+  75%{
+    background-color: #ffff00;
+    border-radius: 75%;
+    background-image: url('../recursos/nyan-cat-gif.webp');
+  }
+  100%{
+    background-color: #ff00ff;
+    border-radius: 100%;
+    border: 30vh solid #000000;
+  }
+  100% {
+    background-image: url('../recursos/nyan-cat-gif.webp');
+  }
+  
+
+}

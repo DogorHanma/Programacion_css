@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 $nombre = "dogor";
 $num= 3.2;
 
@@ -104,3 +105,12 @@ echo '<br>';
 var_dump($pares);
 
 ?>
+=======
+echo"hola mundo";
+
+$name="pepe";
+
+echo"hola .$name.";
+
+?>
+>>>>>>> 35f2d21da292b3f35bd5aab0096242d430e1d9ab
